@@ -1,8 +1,7 @@
 # pangGetImgs
-Retrieve images from "**https://images.google.com**"
 
 ## Intro
-It's a tiny project made in Python designed to download images from Google **more efficiently**
+It's a tiny project made in Python designed to **efficiently** download multiple images from Google at once
 
 ## Preparations to do
 1. Download [**`Python`**](https://www.python.org/downloads/ 'Download Python') in your system
