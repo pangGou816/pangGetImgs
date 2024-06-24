@@ -58,13 +58,13 @@ def main() -> None:
    images = driver.find_elements( By.XPATH, './/img[@class="YQ4gaf"]' )
 
    try:
-      dirPath = os.path.join( keyword )
+      dirPath = os.path.abspath( '../' + keyword )
       os.mkdir( dirPath )
    except:
       subscript = 0
       while True:
          try:
-            dirPath = os.path.join( keyword + str( subscript ) )
+            dirPath = os.path.abspath( '../' + keyword + str( subscript ) )
             os.mkdir( dirPath )
             break
          except: subscript += 1
