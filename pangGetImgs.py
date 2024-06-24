@@ -24,10 +24,10 @@ def main() -> None:
          try: requestAmount = int( sys.argv[2] )
          except ValueError:
             print( f'\nExpected an integer after "{keyword}"' )
-            print( '\nUsing default value "7" as [output image amount]' )
+            print( '\nUsing default value "7" as [output images amount]' )
          except Exception as error: print( error )
    else:
-      print( '\nUsage: python pangGetImgs.py "keyword" [output image amount]\n' )
+      print( '\nUsage: python pangGetImgs.py "keyword" [output images amount]\n' )
       sys.exit()
 
    chromeOption = Options()
