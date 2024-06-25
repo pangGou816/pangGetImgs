@@ -1,7 +1,8 @@
 # pangGetImgs
 
 ## Intro
-It's a tiny project made in Python designed to **efficiently** download multiple images from Google at once
+This is a tiny Python project designed to **efficiently** download multiple images from Google at once  
+It can output a directory containing a number of images associated with the keyword provided
 
 ## Preparations to do
 1. Download [**`Python`**](https://www.python.org/downloads/ 'Download Python') in your system
@@ -23,21 +24,25 @@ It's a tiny project made in Python designed to **efficiently** download multiple
 
 ## How to use
  - Usage: `python pangGetImgs.py 'keyword' [output images amount]`
-   > You **must** provide a keyword, and the number of output images is **optional**
-   > The default number of output images is `7`
+   > `Keyword` **must** be provided  
+   > `Output images amount` is **optional**. The default output images amount is **7**
 
- - Decide what image you are interested in, then use the command below
+ - **Search** by `keyword`
    ```Python
    python pangGetImgs.py 'keyword'
 
-   #For example, I really love the anime "Spy x Family". I can use:
+   # For example, I really love the anime "Spy x Family". I can use the command:
    python pangGetImgs.py 'Spy x Family'
    ```
    > The **`'`** is a **must** if you have **space** in the keyword
- - After that, there will be an additional directory named after the keyword
 
- - To **modify** the number of output images, simply add an **`integer`** after the keyword
+   After that, there will be an additional directory named after the keyword
+
+ - **Modify** `output images amount`
    ```Python
+   # Simply add an integer after the keyword
    python pangGetImgs.py 'Spy x Family' 77
    ```
- - After that, you can see an additional directory containing 77 images
+   > **Must be in the same order as the command above**
+
+   After that, you can see an additional directory containing 77 images
