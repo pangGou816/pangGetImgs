@@ -23,16 +23,16 @@ It can output a directory containing a number of images associated with the keyw
    ```
 
 ## How to use
- - Usage: `python pangGetImgs.py 'keyword' [output images amount]`
+ - Usage: `python main.py 'keyword' [output images amount]`
    > `Keyword` **must** be provided  
    > `Output images amount` is **optional**. The default output images amount is **7**
 
  - **Search** by `keyword`
    ```Python
-   python pangGetImgs.py 'keyword'
+   python main.py 'keyword'
 
    # For example, I really love the anime "Spy x Family". I can use the command:
-   python pangGetImgs.py 'Spy x Family'
+   python main.py 'Spy x Family'
    ```
    > The **`'`** is a **must** if you have **space** in the keyword
 
@@ -41,7 +41,7 @@ It can output a directory containing a number of images associated with the keyw
  - **Modify** `output images amount`
    ```Python
    # Simply add an integer after the keyword
-   python pangGetImgs.py 'Spy x Family' 77
+   python main.py 'Spy x Family' 77
    ```
    > **Must be in the same order as the command above**
 
